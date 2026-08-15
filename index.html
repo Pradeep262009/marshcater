@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarshCater | Where Culinary Talent Meets Opportunity</title>
+    <meta name="description" content="MarshCater is a premium catering networking app connecting talented caterers with high-end clients. Discover gigs, manage events, and grow your culinary brand.">
+    
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:title" content="MarshCater | Premium Catering Network">
+    <meta property="og:description" content="Join the most exclusive network for culinary professionals. Discover catering opportunities, manage your events, and connect with clients.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts: Outfit for headings, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background elements -->
+    <div class="bg-gradient-spot spot-1"></div>
+    <div class="bg-gradient-spot spot-2"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- 1. Navigation Bar -->
+    <nav id="navbar" class="glass-nav">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="./assets/logo.png" alt="MarshCater Logo" class="logo-img">
+                <span class="logo-text">MarshCater</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#download">Download</a>
+            </div>
+            
+            <div class="nav-actions">
+                <a href="#download" class="btn btn-primary btn-glow">Get Started</a>
+                <button class="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section class="hero container" id="home">
+        <div class="hero-content reveal reveal-up">
+            <div class="badge">🔥 The #1 Platform for Caterers</div>
+            <h1 class="hero-title">Where Culinary Talent <br/>Meets <span class="text-accent">Opportunity</span></h1>
+            <p class="hero-subtitle">Elevate your catering business or find the perfect culinary artist for your next high-end event. The all-in-one ecosystem for the modern catering industry.</p>
+            
+            <div class="hero-cta">
+                <a href="#download" class="btn btn-primary btn-glow btn-large">Download App</a>
+                <a href="#features" class="btn btn-secondary btn-large">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="hero-visual reveal reveal-right">
+            <div class="floating-mockup-wrapper" id="hero-image-space">
+                <img src="./assets/hero_mockup_v2.png" alt="MarshCater App Interface" class="phone-mockup">
+                <!-- Decorative floating elements -->
+                <div class="floating-card glass-card float-1">
+                    <div class="card-icon"><i data-lucide="calendar-check"></i></div>
+                    <div>
+                        <strong>New Booking!</strong>
+                        <span>Wedding Gala • 200 Guests</span>
+                    </div>
+                </div>
+                <div class="floating-card glass-card float-2">
+                    <div class="card-icon success"><i data-lucide="dollar-sign"></i></div>
+                    <div>
+                        <strong>Payment Received</strong>
+                        <span>+$4,500.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Stats Bar -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-item reveal reveal-up">
+                <h2 class="stat-number"><span class="counter" data-target="5000">0</span>+</h2>
+                <p class="stat-label">Verified Caterers</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item reveal reveal-up" style="transition-delay: 100ms;">
+                <h2 class="stat-number"><span class="counter" data-target="10000">0</span>+</h2>
+                <p class="stat-label">Successful Events</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item reveal reveal-up" style="transition-delay: 200ms;">
+                <h2 class="stat-number"><span class="counter" data-target="50">0</span>+</h2>
+                <p class="stat-label">Cities Worldwide</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Features Bento Grid -->
+    <section class="features section-padding" id="features">
+        <div class="container">
+            <div class="section-header reveal reveal-up">
+                <h2 class="section-title">Everything You Need to <span class="text-accent">Succeed</span></h2>
+                <p class="section-subtitle">Powerful tools designed specifically for the unique workflow of catering professionals and their clients.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Card 1 (Large) -->
+                <div class="bento-card glass-card bento-large reveal reveal-up">
+                    <div class="bento-icon"><i data-lucide="users"></i></div>
+                    <div class="bento-content">
+                        <h3>Role-Based Ecosystem</h3>
+                        <p>Tailored experiences whether you are a client looking for catering or a professional looking for gigs. Seamlessly switch profiles when needed.</p>
+                    </div>
+                    <div class="bento-visual role-visual">
+                        <div class="badge-role client">Client Mode</div>
+                        <div class="badge-role caterer">Caterer Mode</div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bento-card glass-card reveal reveal-up" style="transition-delay: 100ms;">
+                    <div class="bento-icon"><i data-lucide="map"></i></div>
+                    <div class="bento-content">
+                        <h3>Live Discovery Map</h3>
+                        <p>Interactive location-aware map to find caterers or gigs near you instantly.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bento-card glass-card reveal reveal-up" style="transition-delay: 200ms;">
+                    <div class="bento-icon"><i data-lucide="layout-list"></i></div>
+                    <div class="bento-content">
+                        <h3>Real-Time Events Feed</h3>
+                        <p>Browse open catering gigs and submit proposals with one tap.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bento-card glass-card reveal reveal-up">
+                    <div class="bento-icon"><i data-lucide="message-square-text"></i></div>
+                    <div class="bento-content">
+                        <h3>Instant Messaging</h3>
+                        <p>Secure in-app chat with push notifications to finalize details effortlessly.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bento-card glass-card reveal reveal-up" style="transition-delay: 100ms;">
+                    <div class="bento-icon"><i data-lucide="network"></i></div>
+                    <div class="bento-content">
+                        <h3>Professional Groups</h3>
+                        <p>Join niche networking communities to share tips, staff, and equipment.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bento-card glass-card reveal reveal-up" style="transition-delay: 200ms;">
+                    <div class="bento-icon"><i data-lucide="briefcase"></i></div>
+                    <div class="bento-content">
+                        <h3>Profile & Portfolio</h3>
+                        <p>Build your culinary brand with a stunning portfolio of past events and reviews.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. How It Works -->
+    <section class="how-it-works section-padding" id="how-it-works">
+        <div class="container">
+            <div class="how-it-works-grid">
+                <!-- Visual Side -->
+                <div class="how-it-works-visual reveal reveal-left" id="how-it-works-image-space">
+                    <img src="./assets/how_it_works_mockup_v2.png" alt="MarshCater Workflow" class="phone-mockup glow-mockup">
+                </div>
+                
+                <!-- Steps Side -->
+                <div class="how-it-works-content">
+                    <div class="section-header align-left reveal reveal-up">
+                        <h2 class="section-title">Seamless Workflow, <br/><span class="text-secondary">Zero Friction</span></h2>
+                        <p class="section-subtitle">We've streamlined the entire catering process from discovery to final payment.</p>
+                    </div>
+
+                    <div class="steps-container">
+                        <div class="step reveal reveal-up">
+                            <div class="step-number">1</div>
+                            <div class="step-info">
+                                <h3>Sign Up & Choose Your Role</h3>
+                                <p>Create a beautiful profile as a Caterer to showcase your work, or as a Client to start posting events.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step reveal reveal-up" style="transition-delay: 100ms;">
+                            <div class="step-number">2</div>
+                            <div class="step-info">
+                                <h3>Discover Opportunities</h3>
+                                <p>Use the intelligent map, real-time feed, and professional groups to find exactly what you're looking for.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step reveal reveal-up" style="transition-delay: 200ms;">
+                            <div class="step-number">3</div>
+                            <div class="step-info">
+                                <h3>Connect & Collaborate</h3>
+                                <p>Chat instantly, finalize menus, book securely, and deliver an unforgettable culinary experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Testimonials -->
+    <section class="testimonials section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal reveal-up">
+                <h2 class="section-title">Trusted by <span class="text-accent">Culinary Leaders</span></h2>
+                <p class="section-subtitle">See what our community of chefs, caterers, and clients are saying about MarshCater.</p>
+            </div>
+
+            <div class="testimonial-carousel-container reveal reveal-up">
+                <div class="testimonial-track" id="testimonial-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card glass-card">
+                        <div class="stars">
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                        </div>
+                        <p class="quote">"MarshCater completely transformed how I book corporate events. The map feature allows me to find high-end gigs in my immediate area, doubling my revenue this quarter."</p>
+                        <div class="author-info">
+                            <div class="author-avatar bg-accent">MC</div>
+                            <div>
+                                <h4>Marcus Chen</h4>
+                                <span>Executive Chef, NYC</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card glass-card">
+                        <div class="stars">
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                        </div>
+                        <p class="quote">"As an event planner, finding reliable catering was always my biggest headache. This app makes it incredibly simple to browse portfolios, read reviews, and book instantly."</p>
+                        <div class="author-info">
+                            <div class="author-avatar bg-secondary">SJ</div>
+                            <div>
+                                <h4>Sarah Jenkins</h4>
+                                <span>Event Coordinator, LA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card glass-card">
+                        <div class="stars">
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                            <i data-lucide="star" class="star-icon filled"></i>
+                        </div>
+                        <p class="quote">"The professional groups feature is gold. I found a specialized pastry chef for a large wedding through a MarshCater group within 10 minutes of posting."</p>
+                        <div class="author-info">
+                            <div class="author-avatar bg-purple">AR</div>
+                            <div>
+                                <h4>Alessandro Rossi</h4>
+                                <span>Catering Director, Chicago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-indicators" id="carousel-indicators">
+                    <button class="indicator active" data-index="0"></button>
+                    <button class="indicator" data-index="1"></button>
+                    <button class="indicator" data-index="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Download CTA -->
+    <section class="cta-section section-padding" id="download">
+        <div class="container">
+            <div class="cta-box glass-card reveal reveal-up centered-cta">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Transform Your Catering Business?</h2>
+                    <p class="cta-subtitle">Join thousands of culinary professionals and clients already using MarshCater.</p>
+                    
+                    <a href="./assets/MarshCater%20(v1).apk" download="MarshCater.apk" class="btn btn-primary btn-glow btn-large btn-floating">
+                        <i data-lucide="download" class="download-icon"></i>
+                        DOWNLOAD HERE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./assets/logo.png" alt="MarshCater Logo" class="logo-img">
+                        <span class="logo-text">MarshCater</span>
+                    </a>
+                    <p>The premium network where culinary talent meets opportunity.</p>
+                    <div class="powered-by">
+                        <span>Powered by</span>
+                        <img src="./assets/IMG_20260630_173553.jpg" alt="Company Logo" class="company-logo">
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Platform</h4>
+                        <a href="#features">Features</a>
+                        <a href="#how-it-works">How It Works</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#">Pricing</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 MarshCater. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                    <a href="#"><i data-lucide="facebook"></i></a>
+                </div>
+            </div>
+            <div class="made-with-love">
+                Made with <i data-lucide="heart" class="heart-icon"></i> for the Catering Industry
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
